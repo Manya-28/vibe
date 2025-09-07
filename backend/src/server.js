@@ -15,8 +15,8 @@ const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
 app.use(cors({
-    origin: "http://localhost:5173",
-    credentials: true // allow frontend to send the cookies
+  origin: "https://vibe-1-2tis.onrender.com",
+  credentials: true,
 }));
 app.use(express.json());
 app.use(cookieParser());
